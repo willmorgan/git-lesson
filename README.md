@@ -36,6 +36,7 @@ Merge a branch in to master:
 
 ### Resolve conflicts by editing the conflicts
 `git add conflictedfile.js` to stage the resolved file
+
 `git commit` to complete
 
 Once done, you can delete the branch as it is _just a bookmark_ to a commit.
@@ -56,7 +57,10 @@ Copies commits and combines them
 
 # Rebase
 Just copying a cherry picked a set of commits and applying them on top of another branch.
-`git rebase -i` = magic
+
+#### `git rebase -i` = magic
+Select a range of commits and lets you plan how the applying works.
+
 
 # Log
 `git log` shows you where you are in the branch
